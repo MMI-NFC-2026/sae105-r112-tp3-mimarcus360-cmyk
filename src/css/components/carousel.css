@@ -62,6 +62,16 @@ Les margin négatifs à gauche et à droite corresponde à l'espace entre le nav
   margin-right: -24px;
   /* Définit le type de défilement pour accrocher les éléments - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel__navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+  list-style: none;
 }
 
 .carousel__item {
